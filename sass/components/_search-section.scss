@@ -1,0 +1,34 @@
+.search-section {
+  text-align: center;
+}
+
+.form-search {
+  display: block;
+}
+
+.search-field {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0.5px solid rgba(139, 136, 136, 0.2);
+  box-shadow: 0px 4px 9px -1px rgba(34, 60, 80, 0.22);
+}
+
+.search-submit {
+  margin: 30px 4px;
+  padding: 10px 15px;
+  border: 1px solid $backgound-color;
+  color: $link-text-color;
+  background-color: $backgound-color;
+  border-radius: 4px;
+}
+
+.search-submit:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: $backgound-color;
+  border: 1px solid #dadce0;
+  color: #202124;
+}

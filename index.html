@@ -6,18 +6,36 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
-    <header>
-      <a href="images-search.html">Зображення</a>
-      <a href="advanced-search.html">Розширений пошук</a>
+    <header class="container">
+      <a class="link" href="images-search.html">Зображення</a>
+      <a class="link" href="advanced-search.html">Розширений пошук</a>
     </header>
     <main>
-      <form action="https://google.com/search">
-        <input type="text" name="q" />
-        <input type="submit" value="Google Search" />
-      </form>
+      <section class="container search-section">
+        <form class="form-search" action="https://google.com/search">
+          <input
+            class="search-field"
+            type="text"
+            name="q"
+            placeholder="Пошук.."
+          />
+          <input class="search-submit" type="submit" value="Google Пошук" />
+          <input
+            class="search-submit"
+            type="submit"
+            name="btnI"
+            value="Мені пощастить"
+          />
+        </form>
+      </section>
     </main>
   </body>
 </html>

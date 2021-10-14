@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <header class="advanced-search-header">
+      <a class="link" href="index.html">Пошук Google</a>
+    </header>
+    <main>
+      <h1 class="advanced-search-title container">Розширений пошук</h1>
+      <section class="container advanced-search-section">
+        <p>
+          Знайти сторінки, що <br />
+          містять...
+        </p>
+        <form class="form-advanced-search" action="https://google.com/search">
+          <div class="search-box">
+            <label class="discribe-input" for="all-words">усі ці слова:</label>
+            <input
+              class="field-advanced-search"
+              name="as_q"
+              type="text"
+              id="all-words"
+            />
+          </div>
+          <div class="search-box">
+            <label class="discribe-input" for="one-word"
+              >точне слово або фразу:</label
+            >
+            <input
+              class="field-advanced-search"
+              name="as_epq"
+              type="text"
+              id="one-word"
+            />
+          </div>
+          <div class="search-box">
+            <label class="discribe-input" for="any-these-words"
+              >будь-яке з цих слів:</label
+            >
+            <input
+              class="field-advanced-search"
+              name="as_oq"
+              type="text"
+              id="any-these-words"
+            />
+          </div>
+          <div class="search-box">
+            <label class="discribe-input" for="none-these-words"
+              >жодне з цих слів:</label
+            >
+            <input
+              class="field-advanced-search"
+              name="as_eq"
+              type="text"
+              id="none-these-words"
+            />
+          </div>
+          <input
+            class="advanced-search-submit"
+            type="submit"
+            value="Розширений пошук"
+          />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
